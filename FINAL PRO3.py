@@ -19,10 +19,6 @@ Created on Sun Dec  4 23:02:05 2022
 #User Login detail (username and password)
 #Time punch (clock -in, clock-out)
 
-import validate
-
-data = [0.0, 1.0,]
-validate(data, float)
 print()
 Username =str(input('Enter username: '))
 Password =str(input('Enter password: '))
